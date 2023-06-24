@@ -1,0 +1,35 @@
+@media (max-width: 613px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .nav-link > div {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+        width: 100%;
+    }
+}

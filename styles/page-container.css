@@ -1,0 +1,20 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container .container-wrapper {
+    width: 1000px;
+}
+
+.page-container .container-wrapper #foodie {
+    width: 350px;
+    margin: 25px 40px 20px 0;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+.page-container .container-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}

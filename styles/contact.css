@@ -1,0 +1,45 @@
+.content-columns {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.contact-info-img > img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info-img {
+    margin-bottom: 20px;
+}
+
+.contact-info-column  .contact-address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-info-column .info-column-num {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-info-column > .company-details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.contact-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 900px;
+}
+
+.contact-info-column > .company-details-wrapper i {
+    color: #cea135;
+}

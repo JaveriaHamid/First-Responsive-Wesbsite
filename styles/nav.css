@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: whitesmoke;
+    height: 190px;
+    padding: 30px 100px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 1.5em;
+}
+
+.contact-hours-wrappers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px
+}
+
+.contact-hours-wrappers > .phone {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    filter: sepia(1);
+}
+
+.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+} 
+
+ .center-column > .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.center-column .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link > div {
+    width: 100px;
+    text-align: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+.nav-link a:hover {
+    color: #cea135;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.location-icon {
+    margin-left: 13px;
+}
+
+.location-icon i {
+    font-size: 1.8em;
+}
+
+.address-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    text-align: right;
+}
+
+i:hover {
+    color: #cea135;
+    cursor: pointer;
+    transition: 0.5;
+}
